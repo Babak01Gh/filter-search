@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:400,700");
+
+:root{
+    --primaryColor: #6d28d9;
+    --secondaryColor: #ede9fe;
+    --mainWhite: #fff;
+    --mainBlack: #222;
+    --mainGray: #7c7c7c;
+    --mainRed: #db2777;
+    --bodyColor: #f6f6f6;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    color: var(--mainBlack);
+    background-color: var(--bodyColor);
+    font-family: "Lato";
+}
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 170px;
+    padding: 1rem;
+}
+.header-title{
+    font-size: 2.5rem;
+}
+#searchBox{
+    outline: none;
+    border: none;
+    padding: 1rem 2rem;
+    width: 300px;
+    border-radius: 1rem;
+}
+#searchBox:focus{
+    border: 1px solid var(--primaryColor);
+}
+.filterButtons{
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+}
+.filterButtons a{
+    display: inline-block;
+    text-decoration: none;
+    padding: 1rem;
+    border: 1px solid var(--primaryColor);
+    font-weight: 700;
+    font-size: 1.1rem;
+    color: var(--primaryColor);
+    border-radius: 1rem;
+}
+.filterButtons a:hover{
+    background-color: var(--primaryColor);
+    color: var(--bodyColor);
+}
+.main-div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    color: var(--primaryColor);
+    font-size: 2rem;
+}
+.product{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 250px;
+    border-radius: 1rem;
+    overflow: hidden;
+    box-shadow: 0 0 10px var(--secondaryColor);
+    padding: 1rem;
+}
+.imgContainer img{
+    border-radius: 1rem;
+    max-height: 15rem;
+}
+.product-desc{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 1.1rem 0.5rem;
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: var(--primaryColor);
+}

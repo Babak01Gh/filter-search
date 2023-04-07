@@ -1,0 +1,95 @@
+{
+    "items":[
+        {
+            "id":1,
+            "title":"watch product",
+            "class":"watch",
+            "price":10.99,
+            "image":"./assets/1.jpeg"
+        },
+        {
+            "id":2,
+            "title":"watch product",
+            "class":"watch",
+            "price":14.99,
+            "image":"./assets/2.jpeg"
+        },
+        {
+            "id":3,
+            "title":"gown product",
+            "class":"gown",
+            "price":149.99,
+            "image":"./assets/3.jpeg"
+        },
+        {
+            "id":4,
+            "title":"gown product",
+            "class":"gown",
+            "price":100.99,
+            "image":"./assets/4.jpeg"
+        },
+        {
+            "id":5,
+            "title":"gown product",
+            "class":"gown",
+            "price":80.99,
+            "image":"./assets/5.jpeg"
+        },
+        {
+            "id":6,
+            "title":"shirt product",
+            "class":"shirt",
+            "price":19.99,
+            "image":"./assets/6.jpeg"
+        },
+        {
+            "id":7,
+            "title":"watch product",
+            "class":"watch",
+            "price":23.99,
+            "image":"./assets/7.jpeg"
+        },
+        {
+            "id":8,
+            "title":"watch product",
+            "class":"watch",
+            "price":58.99,
+            "image":"./assets/8.png"
+        },
+        {
+            "id":9,
+            "title":"jewelry product",
+            "class":"jewelry",
+            "price":209,
+            "image":"./assets/9.jpeg"
+        },
+        {
+            "id":10,
+            "title":"jewelry product",
+            "class":"jewelry",
+            "price":80.99,
+            "image":"./assets/10.jpeg"
+        },
+        {
+            "id":11,
+            "title":"shirt product",
+            "class":"shirt",
+            "price":40.99,
+            "image":"./assets/11.jpeg"
+        },
+        {
+            "id":12,
+            "title":"shirt product",
+            "class":"shirt",
+            "price":70.99,
+            "image":"./assets/12.jpeg"
+        },
+        {
+            "id":13,
+            "title":"jewelry product",
+            "class":"jewelry",
+            "price":280.99,
+            "image":"./assets/13.jpeg"
+        }
+    ]
+}
