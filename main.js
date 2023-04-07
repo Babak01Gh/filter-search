@@ -10,7 +10,7 @@ const filter = {
 };
 
 document.addEventListener('DOMContentLoaded', ()=>{
-    axios.get("http://localhost:3000/items")
+    axios.get("https://my-json-server.typicode.com/Babak01Gh/filter-search/items")
     .then(
         res => {
             allProducts = res.data;
